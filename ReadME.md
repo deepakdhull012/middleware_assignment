@@ -11,6 +11,10 @@
 * Product service has request controller - running at port 8200
 * Grpc server will run on port 8000
 
+ # Assumptions
+
+ * No db is used , products.json file is read for data from resources folder
+
 # Create-Order contract
 
 * Request url : `http://localhost:8200/products/create-order`
